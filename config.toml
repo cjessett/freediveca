@@ -6,7 +6,7 @@ googleAnalytics = ""
 publishDir = "docs"
 
 [params]
-    author = "Calin Tataru"
+    author = "CJ Jessett"
     description = "Freediving & Spearfishing Education, Training, and Guiding"
     githubUsername = "#"
     accent = "black"

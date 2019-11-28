@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Wave 2</title>
+        
+        <style>
+
+    html body {
+        font-family: 'Sourcecode Pro', sans-serif;
+        background-color: white;
+    }
+
+    :root {
+        --accent: black;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="https://cjessett.github.io/freediveca/css/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sourcecode%20Pro">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+ 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.60.0" />
+        
+
+        
+
+        
+            <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        
+
+        
+
+    </head>
+
+    <body>
+        
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand visible-xs" href="#">Wave 2</a>
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse">
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/freediveca/">Home</a></li>
+                            
+                                <li><a href="/freediveca/about/">About</a></li>
+                            
+                                <li><a href="/freediveca/courses/">Courses</a></li>
+                            
+                                <li><a href="/freediveca/stories/">Stories</a></li>
+                            
+                        </ul>
+                    
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="mailto:info@freedivaca.com"><i class="fa fa-envelope-o"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://facebook.com/freedive.california/"><i class="fa fa-facebook"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://instagram.com/freedive.california/"><i class="fa fa-instagram"></i></a></li>
+                            
+                        </ul>
+                    
+                </div>
+            </div>
+        </nav>
+
+
+<main>
+
+    <div>
+        <h2>Wave 2</h2>
+        <h5>Intermediate Freediving</h5>
+        
+
+    </div>
+
+    <div align="start" class="content align-left"><h3 id="description">Description</h3>
+<p>Students learn how to train the body for freediving and all the skills and knowledge needed to dive comfortably up to 24-30 meters, as well as hold your breath beyond two and a half minutes. Topics include breathe-up modifications, improvement of Frenzel equalization, introduction to the dolphin kick and much more.</p>
+<h4 id="course-duration-3-days">Course duration: 3 days</h4>
+<h5 id="requirements-wave-1-certification-or-crossover"><em>Requirements</em>: Wave 1 Certification or Crossover</h5>
+</div>
+
+</main>
+
+<footer>
+    <p class="copyright text-muted">© 2019 Freedive California</p>
+</footer>
+
+
+<script src="https://js.stripe.com/v3"></script>
+<script>
+  (function() {
+    var stripe = Stripe('pk_test_U6E0U4mrUAQowSqJnmY67Quw00qxxmZDte');
+
+    var checkoutButtons = document.getElementsByClassName('checkout-button');
+    Array.prototype.forEach.call(checkoutButtons, btn => {
+      btn.addEventListener('click', e => {
+        const { id } = e.target;
+        const sku = id.split('-')[2];
+        
+        
+        
+        stripe.redirectToCheckout({
+          items: [{ sku, quantity: 1 }],
+
+          
+          
+          
+          
+          
+          successUrl: "https:\/\/cjessett.github.io\/freediveca\/",
+          cancelUrl: "https:\/\/cjessett.github.io\/freediveca\/",
+        })
+        .then(function (result) {
+          if (result.error) {
+            
+            
+            var displayError = document.getElementById('error-message');
+            displayError.textContent = result.error.message;
+          }
+        });
+      });
+    })
+  })();
+</script>
+
+</body>
+
+</html>
+
