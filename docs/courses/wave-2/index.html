@@ -147,9 +147,9 @@
 <script src="https://js.stripe.com/v3"></script>
 <script>
   (function() {
-    var stripe = Stripe('pk_test_U6E0U4mrUAQowSqJnmY67Quw00qxxmZDte');
-
+    var stripe = Stripe('pk_live_ooEdyIRwZdd7kt97iK75F6pT00Dkx9chM7');
     var checkoutButtons = document.getElementsByClassName('checkout-button');
+
     Array.prototype.forEach.call(checkoutButtons, btn => {
       btn.addEventListener('click', e => {
         const { id } = e.target;
