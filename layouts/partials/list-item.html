@@ -16,7 +16,7 @@
     {{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006") | $.Scratch.Set "subheader" }}
     {{ with .Description }} {{ $.Scratch.Set "subheader" . }} {{ end }}
 
-    <img src="{{ .Param "image" }}" />
+    <img src="{{ .Site.BaseURL }}{{ .Param "image" }}" />
     <div class="course-list-item">
       <h3>{{ $.Scratch.Get "subheader" }}</h4>
       <h4><a href="{{ .Scratch.Get "link" }}">{{ .Title }}</a></h3>
