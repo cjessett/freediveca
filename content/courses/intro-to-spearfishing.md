@@ -3,7 +3,7 @@ title: Level 1
 description: "Introduction to Spearfishing"
 type: "course"
 image: "images/spear.jpg"
-sku: "sku_GGET1OBsSLdi4G"
+sku: "sku_GGLGBGpQUzf5yQ"
 ---
 
 ### Description
