@@ -1,0 +1,13 @@
+{{ partial "header" . }}
+
+<!-- <img src="/images/giray.jpg" /> -->
+<main>
+    <div class="intro">
+        <h1>FREEDIVE CALIFORNIA</h1>
+        <h2>{{ markdownify .Site.Params.Description }}</h2>
+        {{ with .Content }} <div class="homepage-content text-justify">{{ . }}</div> {{ end }}
+        <div class="button-div"><a href='/courses' class="cta-button">Learn to Freedive</a></div>
+    </div>
+</main>
+
+{{ partial "footer" . }}
