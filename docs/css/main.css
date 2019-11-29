@@ -148,16 +148,17 @@ footer {
   font-size: 1em;
 }
 
-.pay-button {
+.pay-button:hover {
   background-color: transparent;
-  border: 1px solid black;
-  border-radius: 2em;
-  padding: .8em 4em;
+  border: 1px solid #294782;
+  color: #294782;
 }
 
-.pay-button:hover {
+.pay-button {
+  border-radius: 2em;
+  padding: .8em 4em;
   border: 1px solid transparent;
-  background-color:#294782;
+  background-color: #294782;
   color: #fff;
 }
 
