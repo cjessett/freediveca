@@ -8,16 +8,12 @@
     
     <div class="row">
       <div class="row-item">
-        <img src="{{ .Param "imageLg" }}">
-        <!-- <img srcset="elva-fairy-320w.jpg 320w,
-                 elva-fairy-480w.jpg 480w,
-                 elva-fairy-800w.jpg 800w"
-         sizes="(max-width: 320px) 280px,
-                (max-width: 480px) 440px,
-                800px"
-         src="elva-fairy-800w.jpg" alt="Elva dressed as a fairy"> -->
+        <!-- <img src="{{ .Param "imageSm" }}"> -->
+        <img srcset="{{ .Param "imageSm" }} 440w, {{ .Param "imageLg" }} 550w"
+         sizes="(max-width: 375px) 390px, 800px"
+         src="{{ .Param "imageLg"}}" alt="Freediving-{{ .Param "subtitle" }}">
       </div>
-      <div class="row-item">
+      <div class="row-item row-item-text">
         <p class="title">{{ .Param "subtitle" }}</p>
         <h3 class="subtitle"><a href="{{ .Scratch.Get "link" }}">{{ .Title }}</a></h3>
         <p class="description">{{ $.Scratch.Get "subheader" }}</p>
@@ -26,7 +22,7 @@
           class="checkout-button pay-button"
           id="checkout-button-{{ .Param "sku" }}"
           role="link">
-            Make a payment
+            Sign up
         </button>
       </div>
     </div>

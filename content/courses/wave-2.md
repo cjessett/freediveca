@@ -5,7 +5,7 @@ description: "Students learn how to train the body for freediving and all the sk
 duration: "3 days"
 type: "course"
 imageSm: "/images/wave-2-360w.jpg"
-imageLg: "/images/wave-2-400w.jpg"
+imageLg: "/images/wave-2-490w.jpg"
 sku: "sku_GGLOmKmUveRBEM"
 ---
 ### Description

@@ -5,7 +5,7 @@ description: "Learn the fundamentals of spearfishing and hunt down to depths of 
 duration: "2 days"
 type: "course"
 imageSm: "/images/spear-360w.jpg"
-imageLg: "/images/spear-400w.jpg"
+imageLg: "/images/spear-490w.jpg"
 sku: "sku_GGLGBGpQUzf5yQ"
 ---
 

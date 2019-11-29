@@ -115,11 +115,14 @@ footer {
 .row {
   display: flex;
   padding-top: 3em;
-  margin: 4em 0;
 }
 
 .row-item {
   flex: 0 1 50%;
+}
+
+.row-item-text {
+  margin-left: 2em;
 }
 
 .title {
@@ -146,12 +149,16 @@ footer {
 }
 
 .pay-button {
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 2em;
+  padding: .8em 4em;
+}
+
+.pay-button:hover {
+  border: 1px solid transparent;
   background-color:#294782;
-  color:#FFF;
-  padding:8px 12px;
-  border:0;
-  border-radius:4px;
-  font-size:1em
+  color: #fff;
 }
 
 .course-title {
@@ -205,6 +212,9 @@ footer {
    -webkit-box-flex:0;
    -ms-flex:0 1 50%;
    flex:0 1 50%
+  }
+  .row-item-text {
+    margin-left: 0;
   }
   .title {
     margin-top: 1em;

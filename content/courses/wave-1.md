@@ -5,7 +5,7 @@ description: "Learn the basics of freediving by uncovering your natural freedivi
 duration: "2 days"
 type: "course"
 imageSm: "/images/wave-1-360w.jpg"
-imageLg: "/images/wave-1-400w.jpg"
+imageLg: "/images/wave-1-490w.jpg"
 sku: "sku_GGLN1UszKMsMJW"
 ---
 ### Description
