@@ -6,7 +6,7 @@
         <h1>FREEDIVE CALIFORNIA</h1>
         <h2>{{ markdownify .Site.Params.Description }}</h2>
         {{ with .Content }} <div class="homepage-content text-justify">{{ . }}</div> {{ end }}
-        <div class="button-div"><a href="{{ .Site.BaseURL }}courses" class="cta-button">Learn to Freedive</a></div>
+        <div class="button-div" aria-label="Learn to freedive"><a href="{{ .Site.BaseURL }}courses" class="cta-button">Learn to Freedive</a></div>
     </div>
 </main>
 

@@ -1,4 +1,4 @@
-<div class="align-left">
+<div class="align-left courses">
 
     {{ $.Scratch.Set "link" .RelPermalink }}
     
@@ -8,7 +8,6 @@
     
     <div class="row">
       <div class="row-item">
-        <!-- <img src="{{ .Param "imageSm" }}"> -->
         <img srcset="{{ .Param "imageSm" }} 440w, {{ .Param "imageLg" }} 550w"
          sizes="(max-width: 375px) 390px, 800px"
          src="{{ .Param "imageLg"}}" alt="Freediving-{{ .Param "subtitle" }}">
@@ -21,6 +20,7 @@
         <button
           class="checkout-button pay-button"
           id="checkout-button-{{ .Param "sku" }}"
+          aria-label="Sign up"
           role="link">
             Sign up
         </button>

@@ -10,11 +10,11 @@ canonifyURLs = true
     author = "CJ Jessett"
     description = "Freediving & Spearfishing Education, Training, and Guiding"
     githubUsername = "#"
-    accent = "black"
+    accent = "none"
     showBorder = true
     backgroundColor = "white"
     font = "Sourcecode Pro" # should match the name on Google Fonts!
-    highlight = true
+    highlight = false
     highlightStyle = "default"
     highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
 
@@ -56,13 +56,3 @@ canonifyURLs = true
     url = "https://instagram.com/freedive.california/"
     name = "instagram"
     weight = 3
-
-# [[menu.icon]]
-#     url = "https://www.linkedin.com/in/username/"
-#     name = "linkedin"
-#     weight = 4
-# 
-# [[menu.icon]]
-#     url = "https://www.stackoverflow.com/username/"
-#     name = "stack-overflow"
-#     weight = 5

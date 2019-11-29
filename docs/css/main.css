@@ -24,6 +24,7 @@ img {
 
 .intro {
     transform: translateY(22vh);
+    max-width: 1000px;
 }
 
 .intro > h1 {
@@ -35,6 +36,7 @@ img {
 .intro > h2 {
     color: #757575;
     font-size: 1.5em;
+    font-weight: lighter;
 }
 
 /* Page content */
@@ -115,6 +117,7 @@ footer {
 .row {
   display: flex;
   padding-top: 3em;
+  margin: 2em 0;
 }
 
 .row-item {
@@ -130,6 +133,7 @@ footer {
   text-transform: uppercase;
   line-height: 1.6;
   letter-spacing: 0.2em;
+  margin-top: 0;
 }
 
 .subtitle {
@@ -160,6 +164,7 @@ footer {
   border: 1px solid transparent;
   background-color: #294782;
   color: #fff;
+  -webkit-box-shadow: 0 2px 4px -1px rgba(0,0,0,0.2),0 4px 5px 0 rgba(0,0,0,0.14),0 1px 10px 0 rgba(0,0,0,0.12);
 }
 
 .course-title {
@@ -183,11 +188,10 @@ footer {
   border-radius: 2em;
   font-size: 1.5em;
   background-color: black;
-}
-
-.cta-button {
   color: white !important;
   font-weight: lighter;
+  letter-spacing: 0.15em;
+  -webkit-box-shadow: 0 2px 4px -1px rgba(0,0,0,0.2),0 4px 5px 0 rgba(0,0,0,0.14),0 1px 10px 0 rgba(0,0,0,0.12);
 }
 
 .cta-button:hover {
@@ -208,6 +212,10 @@ footer {
 }
 
 @media only screen and (max-width: 768px) {
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
   .row-item {
    min-width:50%;
    -webkit-box-flex:0;
@@ -223,6 +231,9 @@ footer {
   }
   .description {
     max-width: 100%;
+  }
+  .cta-button {
+    letter-spacing: 0.6vw;
   }
 }
 @media only screen and (max-width: 768px) {
