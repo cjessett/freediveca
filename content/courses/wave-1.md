@@ -1,8 +1,11 @@
 ---
+subtitle: "Introduction to Freediving"
 title: Wave 1
-description: "Introduction to Freediving"
+description: "Learn the basics of freediving by uncovering your natural freediving ability. Here you will be taught to dive down 12 to 20 meters, and learn techniques to hold your breath beyond a minute and a half. Topics include the physics of freediving, introduction to equalization and breathing, dive visualization and much more."
+duration: "2 days"
 type: "course"
-image: "/images/wave1.jpg"
+imageSm: "/images/wave-1-360w.jpg"
+imageLg: "/images/wave-1-400w.jpg"
 sku: "sku_GGLN1UszKMsMJW"
 ---
 ### Description
@@ -12,4 +15,4 @@ Learn the basics of freediving by uncovering your natural freediving ability. He
 #### Course duration: 2 days
 
 
-##### *Requirements*: Able to swim non-stop for 200m
+##### ***Requirements***: Able to swim non-stop for 200m

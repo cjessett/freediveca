@@ -3,12 +3,20 @@
 <main>
 
     <div>
-        <h2>{{ .Title }}</h2>
-        <h5>{{ .Description }}</h5>
+        <h2 class="course-title">{{ .Param "subtitle" }} - {{ .Title }}</h2>
         {{ partial "tags" . }}
     </div>
+    
+    <img src="{{ .Param "imageLg" }}">
 
     <div align="start" class="content align-left">{{ .Content }}</div>
+    
+    <button
+      class="pay-button"
+      id="checkout-button-{{ .Param "sku" }}"
+      role="link">
+        Make a payment
+    </button>
 
 </main>
 

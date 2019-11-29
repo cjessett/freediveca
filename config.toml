@@ -4,6 +4,7 @@ title = "Freedive California"
 theme = "minimal"
 googleAnalytics = ""
 publishDir = "docs"
+canonifyURLs = true
 
 [params]
     author = "CJ Jessett"

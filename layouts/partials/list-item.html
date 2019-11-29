@@ -1,34 +1,33 @@
-<div class="item align-left">
+<div class="align-left">
 
     {{ $.Scratch.Set "link" .RelPermalink }}
-    {{ with .Params.repo }}
-        {{ $repoHost := default "github" $.Params.repoHost }}
-        {{ if eq "github" $repoHost }}
-            {{ printf "https://github.com/%s/%s/" $.Site.Params.githubUsername . | $.Scratch.Set "link" }}
-        {{ else if eq "gitlab" $repoHost }}
-            {{ printf "https://gitlab.com/%s/%s/" $.Site.Params.gitlabUsername . | $.Scratch.Set "link" }}
-        {{ else if eq "bitbucket" $repoHost }}
-            {{ printf "https://bitbucket.org/%s/%s/" $.Site.Params.bitbucketUsername . | $.Scratch.Set "link" }}
-        {{ end }}
-    {{ end }}
+    
     {{ with .Params.link }} {{ $.Scratch.Set "link" . }} {{ end }}
 
-    {{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006") | $.Scratch.Set "subheader" }}
     {{ with .Description }} {{ $.Scratch.Set "subheader" . }} {{ end }}
-
-    <img src="{{ .Site.BaseURL }}{{ .Param "image" }}" />
-    <div class="course-list-item">
-      <h3>{{ $.Scratch.Get "subheader" }}</h4>
-      <h4><a href="{{ .Scratch.Get "link" }}">{{ .Title }}</a></h3>
-      <button
-        style="background-color:#6772E5;color:#FFF;padding:8px 12px;border:0;border-radius:4px;font-size:1em"
-        class="checkout-button"
-        id="checkout-button-{{ .Param "sku" }}"
-        role="link">
-          Checkout
-      </button>
-
+    
+    <div class="row">
+      <div class="row-item">
+        <img src="{{ .Param "imageLg" }}">
+        <!-- <img srcset="elva-fairy-320w.jpg 320w,
+                 elva-fairy-480w.jpg 480w,
+                 elva-fairy-800w.jpg 800w"
+         sizes="(max-width: 320px) 280px,
+                (max-width: 480px) 440px,
+                800px"
+         src="elva-fairy-800w.jpg" alt="Elva dressed as a fairy"> -->
+      </div>
+      <div class="row-item">
+        <p class="title">{{ .Param "subtitle" }}</p>
+        <h3 class="subtitle"><a href="{{ .Scratch.Get "link" }}">{{ .Title }}</a></h3>
+        <p class="description">{{ $.Scratch.Get "subheader" }}</p>
+        <h4>Course Duration: {{ .Param "duration" }}</h4>
+        <button
+          class="checkout-button pay-button"
+          id="checkout-button-{{ .Param "sku" }}"
+          role="link">
+            Make a payment
+        </button>
+      </div>
     </div>
-    {{ partial "tags" . }}
-
 </div>

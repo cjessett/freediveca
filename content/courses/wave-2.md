@@ -1,8 +1,11 @@
 ---
-title: Wave 2
-description: "Intermediate Freediving"
+subtitle: "Intermediate Freediving"
+title: "Wave 2"
+description: "Students learn how to train the body for freediving and all the skills and knowledge needed to dive comfortably up to 24-30 meters, as well as hold your breath beyond two and a half minutes. Topics include breathe-up modifications, improvement of Frenzel equalization, introduction to the dolphin kick and much more."
+duration: "3 days"
 type: "course"
-image: "/images/wave2.jpg"
+imageSm: "/images/wave-2-360w.jpg"
+imageLg: "/images/wave-2-400w.jpg"
 sku: "sku_GGLOmKmUveRBEM"
 ---
 ### Description
@@ -10,4 +13,4 @@ Students learn how to train the body for freediving and all the skills and knowl
 
 #### Course duration: 3 days
 
-##### *Requirements*: Wave 1 Certification or Crossover
+##### ***Requirements***: Wave 1 Certification or Crossover
