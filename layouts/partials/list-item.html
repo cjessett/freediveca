@@ -13,17 +13,15 @@
          src="{{ .Param "imageLg"}}" alt="Freediving-{{ .Param "subtitle" }}">
       </div>
       <div class="row-item row-item-text">
-        <p class="title">{{ .Param "subtitle" }}</p>
-        <h3 class="subtitle"><a href="{{ .Scratch.Get "link" }}">{{ .Title }}</a></h3>
+        <p class="title"><a href="{{ .Scratch.Get "link" }}">{{ .Param "subtitle" }}</a></p>
+        <h3 class="subtitle">{{ .Title }}</h3>
         <p class="description">{{ $.Scratch.Get "subheader" }}</p>
-        <h4>Course Duration: {{ .Param "duration" }}</h4>
-        <button
-          class="checkout-button pay-button"
-          id="checkout-button-{{ .Param "sku" }}"
-          aria-label="Sign up"
-          role="link">
-            Sign up
-        </button>
+        <a
+          href="{{ .Scratch.Get "link" }}"
+          class="blue-button link"
+          id="learn-more">
+            Learn more 
+        </a>
       </div>
     </div>
 </div>

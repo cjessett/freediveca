@@ -7,12 +7,12 @@
         {{ partial "tags" . }}
     </div>
     
-    <img src="{{ .Param "imageLg" }}">
+    <img src="{{ .Param "image" }}">
 
     <div align="start" class="content align-left">{{ .Content }}</div>
     
     <button
-      class="checkout-button pay-button"
+      class="checkout-button blue-button"
       id="checkout-button-{{ .Param "sku" }}"
       aria-label="Sign up"
       role="link">
