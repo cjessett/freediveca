@@ -45,20 +45,16 @@
 
 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script async src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
 
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script defer src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 
-<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+<script defer>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
  <meta name="generator" content="Hugo 0.60.0" />
         
 
-        
-
-        
-            <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
         
 
         
@@ -120,9 +116,10 @@
 </footer>
 
 
-<script src="https://js.stripe.com/v3"></script>
-<script>
-  (function() {
+<script defer src="https://js.stripe.com/v3"></script>
+<script defer>
+  var stripeLoaded = false;
+  function foo() {
     var stripe = Stripe('pk_live_ooEdyIRwZdd7kt97iK75F6pT00Dkx9chM7');
     var checkoutButtons = document.getElementsByClassName('checkout-button');
 
@@ -154,6 +151,11 @@
         });
       });
     })
+  }
+  (function checkStripe() {
+    stripeLoaded = typeof Stripe !== "undefined";
+    if (stripeLoaded === false) window.setTimeout(checkStripe, 10);
+    else foo();
   })();
 </script>
 
