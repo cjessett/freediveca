@@ -7,7 +7,10 @@
         {{ partial "tags" . }}
     </div>
     
-    <img src="{{ .Param "image" }}">
+    <picture>
+      <source srcset="{{ .Param "image" }}" type="image/webp">
+      <img src="{{ .Param "imageLg" }}" alt="Freediving-{{ .Param "subtitle" }}">
+    </picture>
 
     <div align="start" class="content align-left">{{ .Content }}</div>
     

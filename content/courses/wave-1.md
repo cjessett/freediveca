@@ -5,9 +5,9 @@ order: 2
 description: "Learn the basics of freediving by uncovering your natural freediving ability. Here you will be taught to dive down 12 to 20 meters, and learn techniques to hold your breath beyond a minute and a half. Topics include the physics of freediving, introduction to equalization and breathing, dive visualization and much more."
 duration: "2 days"
 type: "course"
-image: "/images/wave-1-full.jpg.webp"
-imageSm: "/images/wave-1-360w.jpg.webp"
-imageLg: "/images/wave-1-490w.jpg.webp"
+image: "/images/wave-1-full.webp"
+imageSm: "/images/wave-1-360w.jpg"
+imageLg: "/images/wave-1-490w.jpg"
 sku: "sku_GGLN1UszKMsMJW"
 ---
 
