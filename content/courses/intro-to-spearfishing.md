@@ -2,7 +2,7 @@
 title: "Introduction to Spearfishing"
 subtitle: Level 1
 order: 1
-description: "Learn the fundamentals of spearfishing and hunt down to depths of 12m (40'). Topics include physics and physiology of freediving, equalization, breathing, and relaxation techniques. Students will also learn how to find and identify fish local to the area."
+description: "Learn the fundamentals of spearfishing and hunt down to depths of 12m (40'). Topics include physics and physiology of freediving, equalization, breathing, relaxation, and safety techniques. You will also learn how to find and identify fish local to the area."
 duration: "2 days"
 type: "course"
 image: "/images/spear-full.webp"

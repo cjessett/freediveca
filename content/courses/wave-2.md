@@ -62,4 +62,5 @@ As a certified Molchanovs Wave 2 freediver you will be able to meet the followin
 
 #### Course duration: 3 days
 
-##### ***Requirements***: Wave 1 Certification or Crossover
+
+##### ***Requirements***: Wave 1 certification or equivalent experience with crossover evaluation.
