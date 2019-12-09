@@ -29,8 +29,8 @@ canonifyURLs = true
     weight = 2
 
 [[menu.main]]
-    url = "/stories/"
-    name = "Stories"
+    url = "/calendar/"
+    name = "Calendar"
     weight = 4
 
 [[menu.main]]
