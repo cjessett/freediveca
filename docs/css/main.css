@@ -259,6 +259,9 @@ footer {
   .cta-button {
     letter-spacing: 0.4vw;
   }
+  footer {
+    display: none !important;
+  }
 }
 @media only screen and (max-width: 768px) {
  .row-item {
