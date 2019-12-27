@@ -229,6 +229,24 @@ footer {
   border: 1px solid black;
 }
 
+.conditions {
+  display: flex;
+  
+}
+
+.conditions img {
+  margin: 1em;
+}
+
+@media (max-width: 768px) {
+  .conditions {
+    flex-direction: column;
+  }
+  .conditions img {
+    margin: auto;
+  }
+}
+
 @media only screen and (max-width: 768px) {
  .row {
   -webkit-box-orient:vertical;
