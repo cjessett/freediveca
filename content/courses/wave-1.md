@@ -13,7 +13,7 @@ sku: "sku_GGLN1UszKMsMJW"
 
 Discover your natural freediving ability.
 
-Join the Molchanovs Wave 1 Course with Freedive California, and you will see how comfortable you can be in the water! You will learn the basics of freediving and all the techniques you need to dive down to 20 meters in the safest and most comfortable way.
+Join the [**Molchanovs**](https://molchanovs.com/pages/molchanovs-freediving-education) Wave 1 Course with Freedive California, and you will see how comfortable you can be in the water! You will learn the basics of freediving and all the techniques you need to dive down to 20 meters in the safest and most comfortable way.
 
 In this course, we will also introduce you to the basics of freediving, including diving without fins and developing your skills to become a reliable freediving buddy.
 

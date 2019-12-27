@@ -1,0 +1,17 @@
+{{ partial "header" . }}
+
+<main style="max-width:100%;">
+  <h1>Monterey Bay Conditions</h1>
+  <section style="justify-content:space-between;display:flex">
+    <section>
+      <h3>Nowcast</h3>
+      <img style="vertical-align:top" src="http://cdip.ucsd.edu/model_images/local_tz_filter.gd?map=Monterey_Bay_Swell_Model-Hs-u1-PST.png" />    
+    </section>
+    <section>
+      <h3>Forecast</h3>
+      <img src="http://cdip.ucsd.edu/model_images/local_tz_filter.gd?map=Monterey_Bay_Swell_Forecast-Hs-u1-PST-summary.png" />  
+    </section>
+  </section>
+</main>
+
+{{ partial "footer" . }}

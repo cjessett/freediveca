@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://freediveca.com/</loc>
+    <lastmod>2019-12-26T21:32:26-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://freediveca.com/conditions/</loc>
+    <lastmod>2019-12-26T21:32:26-08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://freediveca.com/about/</loc>
   </url>
   
@@ -12,10 +22,6 @@
   
   <url>
     <loc>https://freediveca.com/courses/</loc>
-  </url>
-  
-  <url>
-    <loc>https://freediveca.com/</loc>
   </url>
   
   <url>
