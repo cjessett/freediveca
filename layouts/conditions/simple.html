@@ -1,25 +1,46 @@
 {{ partial "header" . }}
 
-<main style="max-width:100%;">
+<script>
+  (function getTemp() {
+    let data;
+    const url = 'https://sdf.ndbc.noaa.gov/sos/server.php?request=GetObservation&service=SOS&version=1.0.0&offering=urn:ioos:station:wmo:46240&observedproperty=sea_water_temperature&responseformat=text/csv&eventtime=latest';
+    fetch(url)
+      .then(r => r.text())
+      .then(d => data = d)
+      .then(() => {
+        const tempC = data.split(/\r\n|\n/)[1].split(',').reverse()[0];
+        const tempF = Math.floor((Number(tempC) * 9/5) + 32);
+        const el = document.getElementById("temperature")
+        el.textContent = tempF;
+        el.style.visibility = "visible";
+      });
+  })();
+</script>
+
+<main style="max-width:100%;text-align:center;">
   <h1>Monterey Bay Conditions</h1>
+  <section>
+    <span id="water">💧</span>
+    <span id="temperature"></span>
+  </section>
   <section class="conditions">
     <section>
       <h3>
-        <a href="https://cdip.ucsd.edu/themes/cdip?d2=p54&pb=1&u2=t:rs:p:Hs:r:Monterey_Bay_Swell_Model:c:nowcast">
+        <a href="https://cdip.ucsd.edu/themes/cdip?d2=p54&pb=1&tz=PST&ll=1&un=1&u2=t:rs:p:Hs:r:Monterey_Bay_Swell_Model:c:nowcast">
         Nowcast
         </a>
       </h3>
-      <a href="https://cdip.ucsd.edu/themes/cdip?d2=p54&pb=1&u2=t:rs:p:Hs:r:Monterey_Bay_Swell_Model:c:nowcast">
+      <a href="https://cdip.ucsd.edu/themes/cdip?d2=p54&pb=1&tz=PST&ll=1&un=1&u2=t:rs:p:Hs:r:Monterey_Bay_Swell_Model:c:nowcast">
         <img style="vertical-align:top" src="https://cdip.ucsd.edu/model_images/local_tz_filter.gd?map=Monterey_Bay_Swell_Model-Hs-u1-PST.png" />    
       </a>
     </section>
     <section>
       <h3>
-        <a href="https://cdip.ucsd.edu/themes/cdip?d2=p54&pb=1&u2=t:rs:p:Hs:r:Monterey_Bay_Swell_Forecast:c:forecast:h:summary">
+        <a href="https://cdip.ucsd.edu/themes/cdip?d2=p54&pb=1&u2=t:rs:p:Hs:r:Monterey_Bay_Swell_Forecast:c:forecast:h:summary&tz=PST&ll=1&un=1">
         Forecast
         </a>
       </h3>
-      <a href="https://cdip.ucsd.edu/themes/cdip?d2=p54&pb=1&u2=t:rs:p:Hs:r:Monterey_Bay_Swell_Forecast:c:forecast:h:summary">
+      <a href="https://cdip.ucsd.edu/themes/cdip?d2=p54&pb=1&u2=t:rs:p:Hs:r:Monterey_Bay_Swell_Forecast:c:forecast:h:summary&tz=PST&ll=1&un=1">
         <img src="https://cdip.ucsd.edu/model_images/local_tz_filter.gd?map=Monterey_Bay_Swell_Forecast-Hs-u1-PST-summary.png" />
       </a>  
     </section>

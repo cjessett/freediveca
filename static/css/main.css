@@ -7,7 +7,6 @@ html, body {
 body {
     padding-top: 55px;
     display: flex;
-    text-align: center;
     flex-direction: column;
 }
 
@@ -22,7 +21,7 @@ main {
   margin: -4px 0 0 0;
   padding: 0;
   max-width: inherit;
-  background-position: center;
+  background-position: 40% 40%;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -39,6 +38,7 @@ img {
     transform: translateY(18vh);
     max-width: 1000px;
     margin: 0 auto;
+    text-align: center;
 }
 
 .intro > h1 {
@@ -51,6 +51,24 @@ img {
     color: white;
     font-size: 1.5em;
     font-weight: lighter;
+}
+
+/* About */
+
+.about-page {
+  font-size: 1.8rem;
+}
+
+#about-img-top {
+  margin-left: 1em;
+}
+
+#about-img-bottom {
+  margin-right: 1em;
+}
+
+#water {
+  font-size: 9rem;
 }
 
 /* Page content */
@@ -231,7 +249,17 @@ footer {
 
 .conditions {
   display: flex;
-  
+  justify-content: space-between;
+}
+
+span#temperature {
+  visibility: hidden;
+  font-size: 10rem;
+  font-weight: lighter !important;
+}
+
+span#temperature::after {
+  content: "\2109";
 }
 
 .conditions img {
@@ -254,6 +282,13 @@ footer {
   -ms-flex-direction:column;
   flex-direction:column;
   margin: 0;
+ }
+ #about-img-top {
+   margin-bottom: 1em;
+ }
+
+ #about-img-bottom {
+   margin-bottom: 1em;
  }
 }
 
