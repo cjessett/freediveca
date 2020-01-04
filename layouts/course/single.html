@@ -3,7 +3,7 @@
 <main>
 
     <div>
-        <h2 class="course-title">{{ .Param "subtitle" }} - {{ .Title }}</h2>
+        <h2 class="course-title">{{ with .Params.subtitle }} {{ . }} {{ print "-" }} {{ end }} {{ .Title }}</h2>
         {{ partial "tags" . }}
     </div>
     
