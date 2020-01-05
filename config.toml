@@ -1,6 +1,7 @@
 baseURL = "https://freediveca.com/"
-languageCode = "en-us"
 title = "Freedive California"
+
+languageCode = "en-us"
 theme = "minimal"
 googleAnalytics = ""
 publishDir = "docs"
@@ -11,8 +12,8 @@ canonifyURLs = true
 
 [params]
     author = "CJ Jessett"
-    description = "Freediving & Spearfishing Education, Training, and Guiding"
     githubUsername = "#"
+    facebook = "https://facebook.com/freedive.california"
     accent = "none"
     showBorder = true
     backgroundColor = "white"

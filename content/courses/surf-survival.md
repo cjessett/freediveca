@@ -1,7 +1,7 @@
 ---
 title: "Surf Survival"
 order: 3
-description: "Learn how to apply the breathing, mental, and training techniques used by top level freedivers to sudden and long breath holds. Being able to manage stress through a deeper awareness of your body/mind will help you remain calm and conserve oxygen during a wipeout."
+description: "Learn how to apply the breathing, mental, and training techniques used by top level freedivers to sudden and long breath holds. This course will improve your breathing, safely train your breath hold in the water, help you recover faster, and deal with hold downs with more confidence."
 duration: "4 hours"
 type: "course"
 image: "/images/surf.jpg"
@@ -10,7 +10,9 @@ imageLg: "/images/surf-lg.jpg"
 sku: "sku_GUL08haeHZuEMr"
 ---
 
-Learn how to apply the breathing, mental, and training techniques used by top level freedivers to sudden and long breath holds. Being able to manage stress through a deeper awareness of your body/mind will help you remain calm and conserve oxygen during a wipeout.
+Learn how to apply the breathing, mental, and training techniques used by top level freedivers to sudden and long breath holds. 
+This course will improve your breathing, safely train your breath hold in the water, and help you recover faster. Being able to manage stress through better control of your body and mind will help you remain calm and conserve oxygen during a wipeout.
+
 
 ## **YOU SHOULD ATTEND IF YOU WANT TO:**
   - Improve your breathing & increase your breath hold
@@ -20,7 +22,7 @@ Learn how to apply the breathing, mental, and training techniques used by top le
   - Recover faster between sets
   - Challenge yourself and experience something new
 
-### About the Course
+### **About the Course:**
 
 Courses are held in San Francisco and throughout the Bay Area on request. Maximum 8 students per course.
 
