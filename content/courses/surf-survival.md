@@ -22,7 +22,7 @@ Learn how to apply the breathing, mental, and training techniques used by top le
 
 ### About the Course
 
-Courses are held in San Francisco and throughout the Bay Area on request. Maximum 8 students per course. Contact us via email or send a message on Facebook for requests.
+Courses are held in San Francisco and throughout the Bay Area on request. Maximum 8 students per course.
 
 **Theory Session**
   - What causes the urge to breathe
@@ -38,3 +38,5 @@ Courses are held in San Francisco and throughout the Bay Area on request. Maximu
   - Learn how to train for sudden and long breath holds
 
 #### Duration: 4 hours
+
+Send an email or a message on Facebook for requests.
