@@ -12,29 +12,29 @@ sku: "sku_GUL08haeHZuEMr"
 
 Learn how to apply the breathing, mental, and training techniques used by top level freedivers to sudden and long breath holds. Being able to manage stress through a deeper awareness of your body/mind will help you remain calm and conserve oxygen during a wipeout.
 
+## **YOU SHOULD ATTEND IF YOU WANT TO:**
+  - Improve your breathing & increase your breath hold
+  - Overcome fear that limits your surfing
+  - Master your nervous system
+  - Relax during hold downs
+  - Recover faster between sets
+  - Challenge yourself and experience something new
 
+### About the Course
 
-### Course Outline
+Courses are held in San Francisco and throughout the Bay Area on request. Maximum 8 students per course. Contact us via email or send a message on Facebook for requests.
 
-**Theory**
-
-Topics include:
-  - O2, CO2, and the urge to breathe
-  - Buoyancy
-  - The dive reflex
+**Theory Session**
+  - What causes the urge to breathe
+  - The mammalian dive reflex
   - Breathing and relaxation techniques for breath holds
-  - Training to improve your breath hold
+  - Effective recovery breathing
+  - How to train your urge to breathe tolerance
 
 **Pool Session**
+  - Simulate difficult situations in the surf
+  - Learn how to swim effectively underwater
+  - Learn buddy and rescue procedures for training
+  - Learn how to train for sudden and long breath holds
 
-In the pool session you will learn:
-
-  - Static breath holds
-  - Swimming effectively underwater
-  - Buddy and rescue procedures
-  - How to train in the pool for sudden and long breath holds
-
-#### Course duration: 4 hours
-
-
-##### ***Requirements***: Able to swim non-stop for 200m
+#### Duration: 4 hours
