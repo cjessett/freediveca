@@ -53,15 +53,25 @@ canonifyURLs = true
 
 [[menu.icon]]
     url = "mailto:info@freedivaca.com"
-    name = "envelope-o"
-    weight = 1
+    pre = "far"
+    name = "envelope"
+    weight = 4
 
 [[menu.icon]]
     url = "https://facebook.com/freedive.california/"
-    name = "facebook"
+    pre = "fab"
+    name = "facebook-f"
     weight = 2
 
 [[menu.icon]]
     url = "https://instagram.com/freedive.california/"
+    pre = "fab"
     name = "instagram"
     weight = 3
+    
+[[menu.icon]]
+    url = "https://m.me/freedive.california"
+    pre = "fab"
+    name = "facebook-messenger"
+    weight = 1    
+
