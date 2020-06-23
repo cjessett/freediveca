@@ -8,7 +8,7 @@ type: "course"
 image: "/images/wave-2-full.jpg.webp"
 imageSm: "/images/wave-2-360w.jpg"
 imageLg: "/images/wave-2-490w.jpg"
-sku: "sku_GGLOmKmUveRBEM"
+sku: "sku_HWOKgomGzffCjt"
 ---
 
 This course is best for those who want to go a bit deeper. We will teach you how to train your body for freediving and upgrade relevant skills such relaxation, equalization, and finning techniques. You will gain knowledge about how to dive deeper and will be introduced to the most fun part of freediving: Free falling!
@@ -64,3 +64,8 @@ As a certified Molchanovs Wave 2 freediver you will be able to meet the followin
 
 
 ##### ***Requirements***: Wave 1 certification or equivalent experience with crossover evaluation.
+
+
+### Deposit
+
+Once you make a deposit you will get access to the online course. This will reserve your spot in the course and is highly recommended so you can begin learning the fundamentals of freediving and practice equalization before you get in the water!
